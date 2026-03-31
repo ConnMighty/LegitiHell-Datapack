@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": {
+          "min": 0,
+          "max": 2
+        }
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 1,
+          "quality": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_shulker_box",
+          "weight": 2,
+          "quality": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Legiti",
+                  "extra": [
+                    {
+                      "text": "Shulker™",
+                      "color": "white"
+                    }
+                  ],
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            }
+          ],
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:black_shulker_box",
+          "weight": 2,
+          "quality": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Legiti",
+                  "extra": [
+                    {
+                      "text": "Shulker™",
+                      "color": "dark_gray"
+                    }
+                  ],
+                  "color": "aqua",
+                  "italic": false
+                }
+              }
+            }
+          ],
+          "conditions": []
+        }
+      ]
+    }
+  ]
+}

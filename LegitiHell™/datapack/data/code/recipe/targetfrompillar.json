@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ppp",
+      "prp",
+      "ppp"
+    ],
+    "key": {
+      "p": [
+        "minecraft:quartz_pillar"
+      ],
+      "r": [
+        "minecraft:redstone"
+      ]
+    },
+    "result": {
+      "id": "minecraft:target"
+    }
+  }
